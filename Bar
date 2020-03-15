@@ -41,6 +41,9 @@
           </ul>
         </div>
         
+       <!--Scroll to top button-->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      
       // Contact Bar 
       </nav>
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
