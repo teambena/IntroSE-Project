@@ -11,18 +11,18 @@
 </head>
 <body>
 
-    //TH/EN
+    <!-- TH | EN -->
     <ul class="nav justify-content-end">
-        TH / EN
+        TH | EN
     </ul>
     
-    //LOGO Bar
+    <!-- LOGO Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-          <img class="img-responsive" src="assets/Peter_Patrick.png"/>
-          <img class="img-responsive" src="assets/LOGO_ERDI.png"/>
+          <img class="img-responsive" src=""/>
+          <img class="img-responsive" src=""/>
         </a>
-        
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,13 +40,19 @@
             </li>
           </ul>
         </div>
-        
-      // Contact Bar 
-      </nav>
+      </nav>  
+      <!-- Contact Bar -->
+      
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
         <p>Hello World</p>
-      </nav>
+      </nav> 
+      
+      <!-- Scroll to top -->
+      <a id="back-to-top" href="#">
+        <img src="assets/arrow.jpg" id = "pic">
+      </a>
+      
+      <script src="java.js"></script>
 
 </body>
 </html>
-
