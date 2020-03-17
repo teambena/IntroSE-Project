@@ -9,48 +9,110 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 </head>
+
+<!-- Scroll Down Show Bar-->
 <body>
+  <div id="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">Rubluk</a>
+    <a href="#contact">Smart Gate</a>
+  </div>
 
-    <!-- TH | EN -->
-    <ul class="nav justify-content-end">
-        TH | EN
-    </ul>
-    
-    <!-- LOGO Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          <img class="img-responsive" src=""/>
-          <img class="img-responsive" src=""/>
+<!-- LOGO Bar -->
+<header id="fullsite-header">
+  <div class="left">
+      <div id="logo"><img src="assets/LOGO_ERDI.png">
+      </div>
+      <span id="btn-menu-trigger">
+        <a href="#">
         </a>
+      </span>
+       <div id="lang">
+          <dl>
+            <dt>
+              <a href="?&amp;lang=th" id="btn-th">
+                TH
+              </a>
+            </dt>
+            <br>
+            <dt>
+              <a href="?&amp;lang=en" id="btn-en">
+                EN
+              </a>
+            </dt>
+          </dl>
+               
+      </div>
+  </div>
+</header>
+<!-- LOGO Bar Old
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Rubluk</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Smart Gate</a>
-            </li>
-          </ul>
-        </div>
-      </nav>  
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img class="img-responsive" src=""/>
+    <img class="img-responsive" src=""/>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Rubluk</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Smart Gate</a>
+      </li>
+    </ul>
+  </div>
+</nav>  -->
+
+<!-- LOGO Bar New -->
+<div id="London" class="tabcontent">
+  <h1>Home</h1>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h1>Rubluk</h1>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h1>Smart Gate</h1>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openCity('Paris', this, 'green')">Rubluk</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+    
       <!-- Contact Bar -->
       
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
-        <p>Hello World</p>
-      </nav> 
-      
+      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
+      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
+      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
+      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
+      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
+      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
+      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
+      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
+      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
+
       <!-- Scroll to top -->
+
       <a id="back-to-top" href="#">
         <img src="assets/arrow.jpg" id = "pic">
       </a>
+
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+        <p>Hello World</p>
+      </nav> 
       
       <script src="java.js"></script>
 
