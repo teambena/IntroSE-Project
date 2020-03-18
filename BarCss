@@ -182,3 +182,7 @@ p{
     background-color: #ddd;
     color: black;
   }
+  .video-fluid {
+    width: 550px;
+    height: 100%;
+}
