@@ -8,44 +8,45 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
+
 </head>
 
-<!-- Scroll Down Show Bar-->
 <body>
-  <div id="navbar">
-    <a href="#home">Home</a>
-    <a href="#news">Rubluk</a>
-    <a href="#contact">Smart Gate</a>
-  </div>
-
+<!-- Scroll Down Show Bar--> 
+<div id="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+</div>
+  
 <!-- LOGO Bar -->
+
 <header id="fullsite-header">
   <div class="left">
-      <div id="logo"><img src="assets/LOGO_ERDI.png">
+      <div id="logo">
+        <img src="assets/LOGO_ERDI.png">
       </div>
+
       <span id="btn-menu-trigger">
         <a href="#">
         </a>
       </span>
-       <div id="lang">
-          <dl>
-            <dt>
+      <div id="lang">
+        <a href="?&amp;lang=en" id="btn-en">
+          EN
+        </a> 
+      </div>
+
+      <div id="lang">
               <a href="?&amp;lang=th" id="btn-th">
                 TH
-              </a>
-            </dt>
-            <br>
-            <dt>
-              <a href="?&amp;lang=en" id="btn-en">
-                EN
-              </a>
-            </dt>
-          </dl>
-               
+              </a>           
       </div>
+
   </div>
 </header>
-<!-- LOGO Bar Old
+
+<!-- LOGO Bar 1-->
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">
@@ -70,9 +71,33 @@
       </li>
     </ul>
   </div>
-</nav>  -->
+</nav>  
 
-<!-- LOGO Bar New -->
+
+    
+      
+<!-- Content -->
+
+<!-- Content -->
+
+      <!-- Scroll to top -->
+
+      <a id="back-to-top" href="#">
+        <img src="assets/arrow new.png" id = "pic">
+      </a>
+      <!-- Contact Bar -->
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+        <p>Hello World</p>
+      </nav> 
+      
+      <script src="java.js"></script>
+
+</body>
+</html>
+
+
+
+<!-- LOGO Bar 2 
 <div id="London" class="tabcontent">
   <h1>Home</h1>
   <p>London is the capital city of England.</p>
@@ -91,30 +116,4 @@
 <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">Home</button>
 <button class="tablink" onclick="openCity('Paris', this, 'green')">Rubluk</button>
 <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
-    
-      <!-- Contact Bar -->
-      
-      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
-      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
-      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
-      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
-      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
-      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
-      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
-      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
-      <img src="http://via.placeholder.com/900x300" class="img-fluid rounded mb-3" alt="">
-
-      <!-- Scroll to top -->
-
-      <a id="back-to-top" href="#">
-        <img src="assets/arrow.jpg" id = "pic">
-      </a>
-
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
-        <p>Hello World</p>
-      </nav> 
-      
-      <script src="java.js"></script>
-
-</body>
-</html>
+-->
