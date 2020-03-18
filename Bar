@@ -8,45 +8,112 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-</head>
-<body>
 
-    //TH/EN
-    <ul class="nav justify-content-end">
-        TH / EN
-    </ul>
-    
-    //LOGO Bar
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          <img class="img-responsive" src="assets/Peter_Patrick.png"/>
-          <img class="img-responsive" src="assets/LOGO_ERDI.png"/>
+</head>
+
+<body>
+<!-- Scroll Down Show Bar--> 
+<div id="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+</div>
+  
+<!-- LOGO Bar -->
+
+<header id="fullsite-header">
+  <div class="left">
+      <div id="logo">
+        <img src="assets/LOGO_ERDI.png">
+      </div>
+
+      <span id="btn-menu-trigger">
+        <a href="#">
         </a>
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Rubluk</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Smart Gate</a>
-            </li>
-          </ul>
-        </div>
-        
-      // Contact Bar 
-      </nav>
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
+      </span>
+      <div id="lang">
+        <a href="?&amp;lang=en" id="btn-en">
+          EN
+        </a> 
+      </div>
+
+      <div id="lang">
+              <a href="?&amp;lang=th" id="btn-th">
+                TH
+              </a>           
+      </div>
+
+  </div>
+</header>
+
+<!-- LOGO Bar 1-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img class="img-responsive" src=""/>
+    <img class="img-responsive" src=""/>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Rubluk</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Smart Gate</a>
+      </li>
+    </ul>
+  </div>
+</nav>  
+
+
+    
+      
+<!-- Content -->
+
+<!-- Content -->
+
+      <!-- Scroll to top -->
+
+      <a id="back-to-top" href="#">
+        <img src="assets/arrow new.png" id = "pic">
+      </a>
+      <!-- Contact Bar -->
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
         <p>Hello World</p>
-      </nav>
+      </nav> 
+      
+      <script src="java.js"></script>
 
 </body>
 </html>
 
+
+
+<!-- LOGO Bar 2 
+<div id="London" class="tabcontent">
+  <h1>Home</h1>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h1>Rubluk</h1>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h1>Smart Gate</h1>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openCity('Paris', this, 'green')">Rubluk</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+-->
