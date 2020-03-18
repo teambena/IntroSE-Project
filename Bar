@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="IntroCss.css">
+    <link rel="stylesheet" type="text/css" href="Css.css">
     
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">   
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -12,43 +12,11 @@
 </head>
 
 <body>
-<!-- Scroll Down Show Bar--> 
-<div id="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-</div>
-  
+
 <!-- LOGO Bar -->
 
-<header id="fullsite-header">
-  <div class="left">
-      <div id="logo">
-        <img src="assets/LOGO_ERDI.png">
-      </div>
-
-      <span id="btn-menu-trigger">
-        <a href="#">
-        </a>
-      </span>
-      <div id="lang">
-        <a href="?&amp;lang=en" id="btn-en">
-          EN
-        </a> 
-      </div>
-
-      <div id="lang">
-              <a href="?&amp;lang=th" id="btn-th">
-                TH
-              </a>           
-      </div>
-
-  </div>
-</header>
-
-<!-- LOGO Bar 1-->
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" >
+  
   <a class="navbar-brand" href="#">
     <img class="img-responsive" src=""/>
     <img class="img-responsive" src=""/>
@@ -70,50 +38,261 @@
         <a class="nav-link" href="#">Smart Gate</a>
       </li>
     </ul>
+    
   </div>
+  <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <button type="button" class="btn btn-outline-warning btn-sm">TH</button>
+        <button type="button" class="btn btn-outline-warning btn-sm">EN</button>
+      </li>
+    </ul>
 </nav>  
-
-
     
       
 <!-- Content -->
+<div class="header_img" id="headerimg1">
+
+  <div class="row logo-container-div align-items-center justify-content-center">
+   <div class="logo-wrapper col-auto" >
+     <h1>RUBLUK</h1>
+     <p>Secure School Pickup Application</p>
+  </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <h1></h1>
+  <div class="media">
+      <img src="assets/LOGO_ERDI.png" class="mr-3" alt="RUBLUK">
+      <div class="media-body">
+          <h1 class="mt-0">ABOUT</h1>
+          <br>
+          แอพพลิเคชั่นจากบริษัท Peter and Patrick ที่ช่วยให้ผู้ปกครองรับส่งลูกที่โรงเรียนได้สะดวกและปลอดภัยมากยิ่งขึ้น 
+          ด้วยหลักการทำงานแบบ Smart Platform ที่แจ้งเตือนโรงเรียนและเด็กนักเรียนให้ทราบว่าระยะเวลาที่ผู้ปกครอง
+          จะมาถึงจุดจอดรับจะใช้เวลากี่นาที แอพพลิเคชั่น “รับลูก”
+      </div>
+  </div>
+  <hr class="my-4">
+  <h1></h1>
+  <br>
+  <div class="row">
+      <div class="col-1"></div>
+      <div class="col-5">
+          <h3>ระบบรับส่งเเบบเดิม</h3>
+          <br>
+          <ul>
+              <li>ปัญหารถติดจากการรับ-ส่ง</li>
+              <br>
+              <li>ต้องใช้บุคลากรของโรงเรียนเป็นจำนวนมากช่วยดูแลความปลอดภัยของเด็กนักเรียน</li>
+              <br>
+              <li>เสียเวลาการวนรถและหาที่จอด</li>
+          </ul>
+      </div>
+      <div class="col-5">
+          <h3>Rubluk Application</h3>
+          <br>
+          <ul>
+              <li>บริหารการจัดการ การรับนักเรียนได้อย่างมีประสิทธิภาพ</li>
+              <br>
+              <li>เพิ่มประสิทธิภาพความปลอดภัยให้กับนักเรียน</li>
+              <br>
+              <li>ประหยัดเวลาและความสะดวกกับผู้ปกครอง</li>
+              <br>
+              <li>ลดบุคลากรของโรงเรียนในการดูแลนักเรียน</li>
+              <br>
+              <li>ลดปัญหารถติด</li>
+          </ul>
+      </div>
+  </div>
+  <hr class="my-4">
+  <h1></h1>
+  <br>
+  <div class="media">
+      <div class="media-body">
+        <div class="header_img" id="headerimg2">
+          <div class="row logo-container-div align-items-center justify-content-center">
+           <div class="logo-wrapper col-auto" >
+             <h1>STEP</h1>
+             <p>ขั้นตอนการทำงานของ Rubluk Application</p>
+          </div>
+          </div>
+        </div>
+          <br>
+          <br>
+          <img src="Car.jpg" class="mr-3" alt="">
+          <br>
+          <br>
+          <br>
+          <div class="container">
+              <div class="media mt-3">
+                  <div class="col">
+                      <video class="video-fluid z-depth-1" autoplay loop controls muted>
+                          <source src="My Video.mp4" type="video/mp4" />
+                      </video>
+                  </div>
+                  <div class="media-body">
+                      <h2 class="mt-0">STEP 1</h2>
+                      <br>
+                      ผู้ปกครอง แจ้งเตือนผ่านแอพพลิเคชั่น เมื่อ ออกบ้านหรือที่ทำงานเพื่อให้ระบบทำการส่งข้อมูลไปยัง server
+                  </div>
+              </div>
+              <br>
+              <br>
+              <br>
+              <div class="media">
+                  <div class="media-body">
+                      <h2 class="mt-0 mb-1">STEP 2</h2>
+                      <br>
+                      Server  รับข้อมูลการแจ้งเตือนจาก Smartphone ของผู้ปกครอง และ ทำการจัดการข้อมูลเป็นระบบ 
+                  </div>
+                  <div class="col">
+                  <video class="video-fluid z-depth-1" autoplay loop controls muted>
+                      <source src="My Video1.mp4" type="video/mp4" />
+                  </video>
+                  </div>
+              </div>
+              <br>
+              <br>
+              <br>
+              <div class="media mt-3">
+                  <div class="col">
+                      <video class="video-fluid z-depth-1" autoplay loop controls muted>
+                          <source src="My Video2.mp4" type="video/mp4" />
+                      </video>
+                  </div>
+                  <div class="media-body">
+                      <h2 class="mt-0">STEP 3</h2>
+                      <br>
+                      เด็กนักเรียนจะถูกอนุญาตให้ออกมารอผู้ปกครอง 3-5นาที ก่อนที่ผู้ปกครองมารับ
+                  </div>
+              </div>
+          </div>
+          <hr class="my-4">
+          <br>
+          <br>
+          <img src="Bus.jpg" class="mr-3" alt="">
+          <br>
+          <br>
+          <div class="container">
+              <div class="media mt-3">
+                      <img src="Bus1.jpg" class="mr-3" alt="">
+                  <div class="media-body">
+                      <h2 class="mt-0">STEP 1</h2>
+                      <br>
+                      ผู้ปกครอง แจ้งเตือนผ่านแอพพลิเคชั่น เมื่อ ออกบ้านหรือที่ทำงานเพื่อให้ระบบทำการส่งข้อมูลไปยัง server
+                  </div>
+              </div>
+              <br>
+              <br>
+              <br>
+              <div class="media mt-3">
+                      <img src="Bus2.jpg" class="mr-3" alt="">
+                  <div class="media-body">
+                      <h2 class="mt-0">STEP 2</h2>
+                      <br>
+                      ผู้ปกครอง แจ้งเตือนผ่านแอพพลิเคชั่น เมื่อ ออกบ้านหรือที่ทำงานเพื่อให้ระบบทำการส่งข้อมูลไปยัง server
+                  </div>
+              
+              </div>
+              <br>
+              <br>
+              <br>
+              <div class="media mt-3">
+                      <img src="Bus3.jpg" class="mr-3" alt="">
+                  <div class="media-body">
+                      <h2 class="mt-0">STEP 3</h2>
+                      <br>
+                      ผู้ปกครอง แจ้งเตือนผ่านแอพพลิเคชั่น เมื่อ ออกบ้านหรือที่ทำงานเพื่อให้ระบบทำการส่งข้อมูลไปยัง server
+                  </div>
+              </div>
+          </div>
+              <br>
+              <br>
+              <br>
+          </div>
+      </div>
+
+      <hr class="my-4">
+      <br>
+      <br>
+      <img src="Noone.jpg" class="mr-3" alt="">
+      <br>
+      <br>
+      <div class="container">
+          <div class="media mt-3">
+              <img src="Noone1.jpg" class="mr-3" alt="">
+              <div class="media-body">
+                  <h2 class="mt-0">STEP 1</h2>
+                  <br>
+                  ผู้ปกครอง แจ้งเตือนผ่านแอพพลิเคชั่น เมื่อ ออกบ้านหรือที่ทำงานเพื่อให้ระบบทำการส่งข้อมูลไปยัง server
+              </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="media mt-3">
+                  <img src="Noone2.jpg" class="mr-3" alt="">
+              <div class="media-body">
+                  <h2 class="mt-0">STEP 2</h2>
+                  <br>
+                  ผู้ปกครอง แจ้งเตือนผ่านแอพพลิเคชั่น เมื่อ ออกบ้านหรือที่ทำงานเพื่อให้ระบบทำการส่งข้อมูลไปยัง server
+              </div>
+      
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="media mt-3">
+              <img src="Noone3.jpg" class="mr-3" alt="">
+              <div class="media-body">
+                  <h2 class="mt-0">STEP 3</h2>
+                  <br>
+                  ผู้ปกครอง แจ้งเตือนผ่านแอพพลิเคชั่น เมื่อ ออกบ้านหรือที่ทำงานเพื่อให้ระบบทำการส่งข้อมูลไปยัง server
+              </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="media mt-3">
+              
+                  <img src="Noone4.jpg" class="mr-3" alt="">
+              
+              <div class="media-body">
+                  <h2 class="mt-0">STEP 4</h2>
+                  <br>
+                  ผู้ปกครอง แจ้งเตือนผ่านแอพพลิเคชั่น เมื่อ ออกบ้านหรือที่ทำงานเพื่อให้ระบบทำการส่งข้อมูลไปยัง server
+              </div>
+          </div>
+      </div>
+  <br>
+  <br>
+  <br>
+</div>
+</div>
+</div>
+
+  
 
 <!-- Content -->
-
       <!-- Scroll to top -->
-
       <a id="back-to-top" href="#">
-        <img src="assets/arrow new.png" id = "pic">
+        <img src="90263630_567276017471965_7764688121068781568_n.png" id = "pic">
       </a>
+<div class="Line">
       <!-- Contact Bar -->
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
-        <p>Hello World</p>
-      </nav> 
-      
-      <script src="java.js"></script>
+    <div class="header_img" id="headerimg3">
+        <div class="container">
+
+           <h1>Contact</h1>
+
+           <p>บริษัท ปีเตอร์ เเอนด์ เเพทริค จำกัด</p>
+           <p>ที่ตั้ง 59/1 ม.5 ถนน เลียบคลองชลประทาน ต.สุเทพ อ.เมือง จ.เชียงใหม่ 50200</p>
+           <p>Email:peterandpatrick.co@gmail.com</p>
+        
+      </div>
+    </div>
+</div>
+      <script src="Bar.js"></script>
 
 </body>
 </html>
-
-
-
-<!-- LOGO Bar 2 
-<div id="London" class="tabcontent">
-  <h1>Home</h1>
-  <p>London is the capital city of England.</p>
-</div>
-
-<div id="Paris" class="tabcontent">
-  <h1>Rubluk</h1>
-  <p>Paris is the capital of France.</p>
-</div>
-
-<div id="Tokyo" class="tabcontent">
-  <h1>Smart Gate</h1>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
-
-<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">Home</button>
-<button class="tablink" onclick="openCity('Paris', this, 'green')">Rubluk</button>
-<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
--->
